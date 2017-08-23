@@ -1,0 +1,29 @@
+{
+    "name": "malotor/yaml-routes-provider",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "silex/silex": "^2.1",
+        "mikey179/vfsStream": "^1.6"
+    },
+    "authors": [
+        {
+            "name": "Manel",
+            "email": "malotor@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "malotor\\YamlRoutesProvider\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "malotor\\YamlRoutesProvider\\tests\\": "tests/"
+        }
+    },
+    "require": {
+        "pimple/pimple": "^3.1",
+        "symfony/yaml": "^3.3"
+    }
+}
